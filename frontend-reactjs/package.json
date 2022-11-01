@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 8001",
     "build": "vite build",
     "preview": "vite preview --port 8001 --host"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "swiper": "^8.4.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
